@@ -3,6 +3,19 @@
 @import 'layout/hero';
 @import 'layout/header';
 @import 'layout/base';
-@import 'layout/footer'
+@import 'layout/footer';
 
+*{
+    box-sizing: border-box;
+}
 
+body{
+    color: $dark;
+}
+a{
+    color: inherit;
+    display: inline;
+    &:hover {
+        color: $orange;
+    }
+}

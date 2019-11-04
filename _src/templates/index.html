@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Evaluación final</title>
   <link rel="icon" href="./favicon.png" />
+  <link href="./assets/css/normalize.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css">
@@ -13,37 +14,44 @@
 
 <body>
   <div class="wrapper">
-    <header>
-      <button><img src="./assets/images/ico-menu.svg"></button>
+    <header class="header">
+      <button class="header__button"><img class="header__button--img" src="./assets/images/ico-menu.svg"></button>
     </header>
-    <hero>
-      <h1>ANONIMOUS PROXY</h1>
-      <P>In hac habitasse platea dictumst.</P>
-      <button><img src="./assets/images/ico-scroll-down.svg" alt="Bajar al menú"></button>
+    <hero class="hero">
+      <div class="hero__cover">
+        <!--Aquí iría mi imagen de fondo-->
+        <h1 class="hero__title">ANONIMOUS PROXY</h1>
+        <P class="hero__text">In hac habitasse platea dictumst.</P>
+        <button class="hero__button"><img class="hero__button--img" src="./assets/images/ico-scroll-down.svg"
+            alt="Bajar al menú"></button>
+      </div>
     </hero>
     <main class="main">
       <section class="main__first">
-        <span>Imsomnia Tips</span>
-        <h2>Looking Through A Window</h2>
-        <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus
+        <span class="main__first--small">Imsomnia Tips</span>
+        <h2 class="main__first--title">Looking Through A Window</h2>
+        <p class="main__first--text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec
+          lectus. Vivamus
           semper sodales rutrum.</p>
-        <button>Go</button>
+        <button class="main__first--button">Go</button>
       </section>
       <section class="main__second">
-        <h2>3 Reasons To Purchase</h2>
-        <article class="main__second--reasons">
-          <h3>Ut sed metus</h3>
-          <p>Lorem ipsum dolor sit amet, consecteur.</p>
-        </article>
-        <article class="main__second--reasons">
-          <h3>Curabitur ac erat</h3>
-          <p>Mauris mattis urna quis lorem molestie.</p>
-        </article>
-        <article class="main__second--reasons">
-          <h3>Morbi dictum</h3>
-          <p>Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-        <button>More reasons</button>
+        <h2 class="main__second--title">3 Reasons To Purchase</h2>
+        <div class="grid">
+          <article class="article">
+            <h3 class="article__title">Ut sed metus</h3>
+            <p class="article__text">Lorem ipsum dolor sit amet, consecteur.</p>
+          </article>
+          <article class="article">
+            <h3 class="article__title">Curabitur ac erat</h3>
+            <p class="article__text">Mauris mattis urna quis lorem molestie.</p>
+          </article>
+          <article class="article">
+            <h3 class="article__title">Morbi dictum</h3>
+            <p class="article__text">Aliquam in dolor et dolor tincidunt.</p>
+          </article>
+        </div>
+        <button class="main__second--button">More reasons</button>
       </section>
     </main>
 
