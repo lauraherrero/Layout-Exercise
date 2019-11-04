@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: $dark;
+}
+a{
+    color: inherit;
+    display: inline;
+    &:hover {
+        color: $orange;
+    }
+}

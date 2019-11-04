@@ -1,51 +1,4 @@
-/*---MAIN---*/
-.main{
-    &__first{
-    width: 100%;
-    height: 376px;
-    background-color: $light;
-    padding: 30px $padding-right 0 $padding-left;
-
-    &--small{
-    width: 90px;
-    height: 30px;
-    font-family: $fontText;
-    font-size: 14px;
-    color: #8ccbea;
-    }
-}
-}
-.main__first--title{
-    width: 100%;
-    height: 60px;
-    font-size: 24px;
-    font-family: $fontTitle;
-    color: $dark;
-    margin: 1px;
-}
-.main__first--text{
-    width: 100%;
-    height: 120px;
-    margin-top:15px;
-    color: $greyish;
-    font-family: $fontText;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 1.67;
-}
-.main__first--button{
-    width: 76px;
-    height: 45px;
-    border-radius: 22.5px;
-    border: solid 2px $orange;
-    background-color: $light;
-    color: $orange;
-    font-size: 20px;
-    font-family: $fontText;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 45px;
-}
+/*---MAIN-SECOND-SECTION---*/
 .main__second {
     width: 100%;
     height: 624px;
@@ -101,8 +54,7 @@
     font-family: $fontText;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 60px;
     position: absolute;
     right: 68px;
+    bottom: -940px;
 }
-

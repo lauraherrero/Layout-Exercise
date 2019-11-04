@@ -1,21 +1,10 @@
 @import 'core/variables';
 @import 'vendors/normalize';
+@import 'core/base';
 @import 'layout/hero';
 @import 'layout/header';
-@import 'layout/base';
+@import 'layout/firstSection';
+@import 'layout/secondSection';
 @import 'layout/footer';
 
-*{
-    box-sizing: border-box;
-}
 
-body{
-    color: $dark;
-}
-a{
-    color: inherit;
-    display: inline;
-    &:hover {
-        color: $orange;
-    }
-}

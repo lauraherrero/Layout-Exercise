@@ -1,17 +1,18 @@
 /*---HEADER---*/
 .header{
     position: fixed;
-}
-.header__button{
-    width: 44px;
-    height: 44px;
-    background-color: #0271bc;
-    margin-left: 0;
-    margin-top: 0;
-    border: 0;
-    text-align: center;
-    &--img{
-        width: 16px;
-        height: 16px;
+
+    &__button{
+        width: 44px;
+        height: 44px;
+        background-color: #0271bc;
+        margin-left: 0;
+        margin-top: 0;
+        border: 0;
+        text-align: center;
+        &--img{
+            width: 16px;
+            height: 16px;
+        }
     }
 }
