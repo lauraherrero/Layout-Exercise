@@ -1,0 +1,13 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("./assets/images/cover.jpg");
+    background-size: cover;
+    /*z-index: -2;
+    @include tablet {
+        height: 421px;
+        background: url(../images/team-1280.jpg) center bottom no-repeat;
+        background-size: cover;}
+    @include desktop {
+        height: 550px;}*/
+} 
