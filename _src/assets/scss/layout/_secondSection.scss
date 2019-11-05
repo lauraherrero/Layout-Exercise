@@ -4,6 +4,7 @@
     height: 624px;
     background-color: $iceBlue;
     padding: 30px $padding-right 0 $padding-left;
+    text-align: center;
     @media all and (min-width:768px){
         height: 397px;
         display: block;
@@ -35,6 +36,8 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 45px;
+    margin-bottom: 45px;
+    margin-top: 45px;
     @media all and (min-width:768px){
         display: flex;
         flex-direction: row;
@@ -84,23 +87,18 @@
     font-size: 20px;
     font-family: $fontText;
     font-weight: 500;
-    text-align: center;
-    position: absolute;
-    right: 68px;
-    bottom: -940px;
+    transition: color ease 2s, border-color ease 2s;
+    transition: background-color ease 1s;
         &:hover{
             background-color: $light;
             color: $orange;
             border: 2px solid $orange;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
         }
     @media all and (min-width:768px){
         width: 210px;
-        left: 290px;
-        bottom: -850px;
         }
     @media all and (min-width: 1200px){
         width: 255px;
-        left: 480px;
-        bottom: -800px;
     }
 }
