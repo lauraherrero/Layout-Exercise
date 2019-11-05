@@ -17,7 +17,7 @@ Con el objetivo de hacer la web más dinámica a nivel visual, se han introducid
 ## Estructura
 La estructura de carpetas que se ha seguido para trabajar es la siguiente:
 
-|
+/
 `- _src
    |- assets
    |  |- icons
