@@ -9,6 +9,15 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    @media all and (min-width:768px){
+        height: 240px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+    @media all and (min-width: 1200px){
+        justify-content: center;
+    }
 
     &__button {
         width: 45px;
@@ -18,14 +27,36 @@
         border-radius: 50%;
         position: relative;
         top: -48px;
+        @media all and (min-width:768px){
+            left: -350px;
+            top: -120px;
+        }
+        @media all and (min-width: 1200px){
+            left: -300px;;
+        }
+    }
+    &__sections{
+        text-align: center;
+        @media all and (min-width:768px){
+            display: flex;
+            flex-direction: row;
+        }
     }
 
     &__categories{
         width: 73px;
         height: 150px;
+        margin: auto;
+        margin-bottom: 30px;
         font-size: 16px;
         line-height: 1.88;
         text-align: center;
+        
+        @media all and (min-width:768px){
+            width: 210px;
+            height: 90px;
+            text-align: justify;
+        }
     }
 
     &__social{
@@ -34,6 +65,11 @@
         font-size: 16px;flex-direction: column;
         line-height: 1.88;
         text-align: center;
+        @media all and (min-width:768px){
+            width: 210px;
+            height: 150px;
+            text-align: justify;
+        }
     }
 
     &__copy{
@@ -45,6 +81,21 @@
         align-items: center;
         &--simbol{
             color: $orange;
+            }
+        &--year{
+        @media all and (min-width:768px){
+            width: 210px;
+            height: 30px;
+            text-align: justify;
+            }
         }
+        &--small{
+            @media all and (min-width:768px){
+                width: 210px;
+                height: 30px;
+                text-align: justify;
+                }
+            }
+        
     }
 }

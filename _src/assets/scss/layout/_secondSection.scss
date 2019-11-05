@@ -4,6 +4,14 @@
     height: 624px;
     background-color: $iceBlue;
     padding: 30px $padding-right 0 $padding-left;
+    @media all and (min-width:768px){
+        height: 397px;
+        display: block;
+    }
+    @media all and (min-width: 1200px){
+        height: 427px;
+        padding: 60px 82px;
+    }
 
     &--title{
     width: 100%;
@@ -14,12 +22,24 @@
     margin: 0;
     margin-bottom: 45px;
     text-align: center;
+    @media all and (min-width:768px){
+        width: 450px;
+        height: 45px;
+        margin: 0 auto 45px auto;
+        font-size: 26px;
+        text-align: center;
+        }
     }
 }
 .grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 45px;
+    @media all and (min-width:768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 .article{
     padding: 2px;
@@ -34,6 +54,12 @@
     font-weight: bold;
     text-align: center;
     margin: auto;
+    @media all and (min-width:768px){
+        width: 210px;
+        height: 30px;
+        margin-bottom: 14px;
+        font-size: 24px;
+        }
     }
     &__text{
     width: 180px;
@@ -41,6 +67,11 @@
     font-family: $fontText;
     line-height: 1.67;
     margin: auto;
+    @media all and (min-width:768px){
+        width: 212px;
+        height: 68px;
+        font-size: 20px;
+        }
     }
 }
 .main__second--button{
@@ -57,4 +88,19 @@
     position: absolute;
     right: 68px;
     bottom: -940px;
+        &:hover{
+            background-color: $light;
+            color: $orange;
+            border: 2px solid $orange;
+        }
+    @media all and (min-width:768px){
+        width: 210px;
+        left: 290px;
+        bottom: -850px;
+        }
+    @media all and (min-width: 1200px){
+        width: 255px;
+        left: 480px;
+        bottom: -800px;
+    }
 }
