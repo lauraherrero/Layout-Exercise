@@ -1,0 +1,36 @@
+.offer{
+    background-color:$orange;
+    display: none;
+}
+.offer{
+    display: block;
+    padding: 20px;
+}
+.offer-section{
+    @media all and (min-width:768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__title{
+        font-family: $fontTitle;
+    }
+    &__subtitle{
+        font-family: $fontTitle;
+    }
+    &__text{
+        font-family: $fontText;
+    }
+}
+.offer__title{
+    margin-top: 0;
+    text-align: center;
+}
+.offer__subtitle{
+    width: 50%;
+    text-align: center;
+}
+.offer__text{
+    width: 50%;
+    text-align: center;
+}
